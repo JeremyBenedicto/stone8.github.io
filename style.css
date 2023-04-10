@@ -84,7 +84,7 @@ nav ul li a:hover{
     font-weight: lighter;
 }
 .cover .text h1{
-    margin-bottom: 15px;
+    margin-top: 50px;
     font-size: 45px;
 }
 .cover .text h1 a{
@@ -252,30 +252,40 @@ nav ul li a:hover{
         flex-direction: column;
     }
     .card1{
-        width: 50%;
+        width: 80%;
         height: 30%;
     }
     .card1 img{
         width: 70%;
         height:50%;
+        margin-bottom: 10px;
     }
     .card2{
-        width: 50%;
+        width: 80%;
         height: 30%;
         margin-top: 10px;
     }
     .card2 img{
         width: 70%;
         height:50%;
+        margin-bottom: 10px;
     }
     .card3{
-        width: 50%;
+        width: 80%;
         height: 30%;
         margin-top: 10px;
     }
     .card3 img{
         width: 70%;
         height:50%;
+        margin-bottom: 10px;
+    }
+    .about{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.656),rgba(0, 0, 0, 0.426)),url(picture/cover2.JPG);
     }
 
 }
